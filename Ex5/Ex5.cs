@@ -16,7 +16,7 @@ namespace Ex5
 
         public static void MaiorMenor()
         {
-            int maior=1, menor=100000000, numEntrada;
+            int maior=Int32.MinValue, menor=Int32.MaxValue, numEntrada;
 
             for (int i = 0; i < 15; i++)
             {
